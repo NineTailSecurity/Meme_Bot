@@ -3,7 +3,7 @@ import os
 import requests
 import json
 
-TOKEN = "OTk1OTEwMjE1Mzk0NDEwNTU2.G_FDP2.jIUpGA4tb45mUwjp0uf8Gy8wXB4viHx0YcMBt4"
+TOKEN = "OTk1OTEwMjE1Mzk0NDEwNTU2.GuPGaY.orokgQ0zOgAKLThRD_7nZA6dvfVDVpd7y4eXQk"
 client = discord.Client()
 
 
