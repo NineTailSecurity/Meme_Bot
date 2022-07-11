@@ -1,3 +1,6 @@
+# Generally this is only the startup file, don't mix
+# project logic with startup here. This will be changed later on.
+
 import discord
 
 
