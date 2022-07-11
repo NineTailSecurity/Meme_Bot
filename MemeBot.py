@@ -15,7 +15,8 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('$Hello'):
+    if message.content.startswith('Give me a Meme'):
+        # meme = get_meme()
         await message.channel.send("Hello")
 
 client.run(TOKEN)
