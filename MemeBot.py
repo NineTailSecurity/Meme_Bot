@@ -26,7 +26,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('I WANT A MEME'):
-        meme = get_meme()
-        await message.channel.send(meme)
+        # meme = get_meme()
+        await message.channel.send("Sorry...I am too busy right now)
 
 client.run(os.getenv(TOKEN))
