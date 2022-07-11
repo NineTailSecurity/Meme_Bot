@@ -1,7 +1,7 @@
 import discord
 
 
-TOKEN = "Bot Token"
+TOKEN = 'Bot Token'
 client = discord.Client()
 
 
@@ -17,6 +17,6 @@ async def on_message(message):
 
     if message.content.startswith('Give me a Meme'):
         # meme = get_meme()
-        await message.channel.send("Hello")
+        await message.channel.send('Sorry I am too busy right now :/')
 
 client.run(TOKEN)
